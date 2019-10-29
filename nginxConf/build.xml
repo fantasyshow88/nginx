@@ -16,10 +16,10 @@
         <echo>清理openresty目录 ${dist}下的conf,logs,janus,januslib</echo>
         <delete dir="${target-conf}/nginx.conf"/>
         <delete dir="${target-src}"/>
-        <delete>
+<!--        <delete>
             <fileset dir="${openresty-home}/logs" includes="*.log">
             </fileset>
-        </delete>
+        </delete>-->
     </target>
 
     <target name="init" depends="clean">

@@ -1,2 +1,2 @@
 # nginx
-nginx config + openrestry + lua develop(waf)
+nginx config + openrestry + lua develop
